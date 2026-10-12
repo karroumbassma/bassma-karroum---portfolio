@@ -1,10 +1,11 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bassma | Data & AI Portfolio</title>
+  <title>Bassma Karroum | Data & AI Portfolio</title>
+
   <style>
     body {
       margin: 0;
@@ -13,14 +14,26 @@
       color: #1e293b;
       text-align: center;
     }
+
     header {
       background: #14213d;
       color: white;
       padding: 70px 20px;
     }
-    h1 { font-size: 42px; margin-bottom: 12px; }
-    header p { font-size: 18px; }
-    main { padding: 35px 20px; }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    main {
+      padding: 35px 20px;
+    }
+
     .projects {
       display: flex;
       flex-wrap: wrap;
@@ -28,18 +41,29 @@
       gap: 18px;
       margin-top: 25px;
     }
+
     .card {
       background: white;
       padding: 25px;
       border-radius: 12px;
       width: 210px;
       box-shadow: 0 4px 14px #00000010;
+      transition: transform 0.2s;
     }
-    a { color: #2563eb; text-decoration: none; }
-    footer { padding: 25px; color: #64748b; }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      padding: 25px;
+      color: #64748b;
+    }
   </style>
 </head>
+
 <body>
+
   <header>
     <h1>Bassma Karroum</h1>
     <p>Data Science | Machine Learning | Artificial Intelligence</p>
@@ -48,33 +72,37 @@
 
   <main>
     <h2>My Projects</h2>
-    <p>Explore my projects in data and artificial intelligence.</p>
+    <p>Explore my projects in data analysis, AI and business intelligence.</p>
 
     <div class="projects">
+
       <div class="card">
         <h3>Data Analysis</h3>
-        <p>Data exploration and visualization projects.</p>
+        <p>Data cleaning, exploration, statistical analysis and visualization.</p>
       </div>
 
       <div class="card">
-        <h3>Machine Learning</h3>
-        <p>Predictive models and classification.</p>
+        <h3>Machine Learning & AI</h3>
+        <p>Predictive models, classification, deep learning and AGRI-SMART.</p>
       </div>
 
       <div class="card">
-        <h3>AI & Deep Learning</h3>
-        <p>Artificial intelligence and deep learning projects.</p>
+        <h3>Data Automation & n8n</h3>
+        <p>Automated workflows, AI-powered analysis and SOC incident monitoring.</p>
       </div>
 
       <div class="card">
         <h3>Power BI</h3>
-        <p>Interactive dashboards and reports.</p>
+        <p>Interactive dashboards, reports and business data visualization.</p>
       </div>
+
     </div>
   </main>
 
   <footer>
     <p>© 2026 Bassma Karroum</p>
   </footer>
+
 </body>
 </html>
+```
